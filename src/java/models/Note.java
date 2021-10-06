@@ -6,12 +6,14 @@ public class Note implements Serializable {
     
     private String title;
     private String contents;
-
+    
+    // default constructor
     public Note(String title, String contents) {
         this.title = title;
         this.contents = contents;
     }
-
+    
+    // getters and setters
     public String getTitle() {
         return title;
     }
